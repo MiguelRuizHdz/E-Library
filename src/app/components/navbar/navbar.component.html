@@ -1,16 +1,17 @@
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container-fluid">
 
-        <a class="navbar-brand" href="#">E-Library</a>
-        <img src="../../../assets/Libro.png">
+        <a class="navbar-brand" href="/home">E-Library
+            <img src="../../../assets/Libro.png" width="22" height="22" >
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
+        <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto mb-2 mb-lg-0 ml-4">
+
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    <a class="nav-link active" aria-current="page" href="/home">HOME</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="/catalogo" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
@@ -18,11 +19,11 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="/catalogo/1">Literatura</a></li>
-                        <li><a class="dropdown-item" href="#">Comic</a></li>
-                        <li><a class="dropdown-item" href="#">Agendas</a></li>
-                        <li><a class="dropdown-item" href="#">Gastronomía</a></li>
-                        <li><a class="dropdown-item" href="#">Viajes</a></li>
-                        <li><a class="dropdown-item" href="#">Bienestar</a></li>
+                        <li><a class="dropdown-item" href="/catalogo/2">Comic</a></li>
+                        <li><a class="dropdown-item" href="/catalogo/3">Agendas</a></li>
+                        <li><a class="dropdown-item" href="/catalogo/4">Gastronomía</a></li>
+                        <li><a class="dropdown-item" href="/catalogo/5">Viajes</a></li>
+                        <li><a class="dropdown-item" href="/catalogo/6">Bienestar</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
@@ -31,8 +32,8 @@
                 </li>
             </ul>
             <form class="d-flex">
-                <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <input class="form-control mr-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
             </form>
         </div>
     </div>
